@@ -1,0 +1,10 @@
+List Comprehension
+
+List comprehension offers a shorter syntax when you want to create a new list based on the values of an existing list.
+Without list comprehension you will have to write a for statement with a conditional test inside
+list comprehension helps us to do loops in one line of code.
+
+Exapmle:
+colours = ["blue","black","pink","purple","orange"]
+newlist=[x for x in colours if "l" in x]
+print(newlist)
